@@ -1,0 +1,89 @@
+body{
+    font-family: arial, sans-serif;
+    font-size: 16px;
+}
+
+.topnav{
+    text-align: right;
+}
+.topnav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 16px;
+    color: black;
+}
+.topnav span{
+    text-align: right;
+}
+.topnav span:after{
+    content: "|";
+    text-align: center;
+}
+
+.middle {
+    background-color: #f4f4f1;
+    width: 30%;
+    float: left;
+}
+
+.MainNav{
+    border-right: 2px solid #056104;
+    height: 120%;
+}
+
+.MainNav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 16px;
+    margin: 16px;
+    display: block;
+    color: black;
+    border-bottom: darkgreen solid 2px;
+}
+
+.nav_img_links{
+    margin-top: 20rem;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    color: #830c0c;
+    border-bottom: #830c0c solid 2px;
+}
+.MainContent{
+    width: 50%;
+    float: left;
+    margin-left: 10px;
+}
+
+.SmallNav span{
+    width: 40%;
+}
+
+.SmallNav a{
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin-left: 40px;
+    padding: 4px;
+    width: auto;
+}
+
+.MainText{
+    width: 70%;
+    margin-left: 50%;
+}
+
+.MainText img{
+    border-radius: 15px;
+}
+
+.MainText p{
+    font-size: 18px;
+}
+.MainFooter{
+    display: block;
+}
